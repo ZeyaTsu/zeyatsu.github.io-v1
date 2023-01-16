@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    font-size: 16px;
+}
+body::-webkit-scrollbar
+{
+    width: 0.25rem;
+}
+body::-webkit-scrollbar-track
+{
+    background: #2c2c2c;
+}
+body::-webkit-scrollbar-thumb
+{
+    background: #16161D;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+header {
+    background-image: url("../assets/main_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: auto;
+    height: 100vh;
+    width: 100%;
+}
+#title {
+    color: white;
+    letter-spacing: 1rem;
+    text-align: center;
+    padding-top: 30vh;
+    cursor: default;
+    font-weight: lighter;
+    transition: 0.2s;
+}
+#slogan {
+    color: white;
+    letter-spacing: 0.15rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-weight: lighter;
+    cursor: default;
+}
+#nav {
+    padding: 3vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+li:hover {
+    transform: scale(1.1);
+    color: rgb(218, 236, 255);
+}
+li {
+    color: white;
+    transition: 0.2s;
+}
+body {
+    background-color: black;
+}
+#section-title {
+    font-size: 4rem;
+}
+#section-description {
+    margin-top: 0.5rem;
+    word-break: normal;
+    font-weight: lighter;
+    opacity: 0.3;
+}
+#section-description-onwhite {
+    margin-top: 0.5rem;
+    word-break: normal;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+
+#ico, #ico-insta {
+    background-color: #111111;
+    padding: 0.5rem;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+#ico_onwhite {
+    background-color: #111111;
+    padding: 0.5rem;
+    border-radius: 100%;
+    transition: 0.2s;
+    max-width: 2.2rem;
+    margin-left: 1rem;
+    transition: 0.2s;
+}
+#ico_onwhite:hover {
+    transform: scale(1.1);
+}
+
+#ico {
+    max-width: 2.2rem;
+    margin-left: 1rem;
+}
+#ico-insta {
+    max-width: 2.2rem;
+}
+
+#ico:hover, #ico-insta:hover {
+    transform: scale(1.1);
+}
+.container-icon {
+    margin-left: 3vh;
+    margin-top: 1.5rem;
+}
+.container-icon-onwhite-reverse {
+    margin-left: 3vh;
+    margin-top: 1.5rem;
+}
+#poster-example {
+    max-width: 40vh;
+    /*max-width: 25rem;
+    /*margin-left: 20rem;*/
+}
+.design {
+    color: white;
+    margin-top: 5rem;
+    display: flex;
+    gap: 15vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.projects {
+    color: white;
+    padding-top: 5rem;
+    display: flex;
+    gap: 15vh;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.projects {
+    margin-top: 5rem;
+    background-color: white;
+    color: black;
+}
+.container-projects {
+    padding-bottom: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.background-cards {
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s
+}
+.background-cards:hover {
+    transform: scale(1.1);
+}
+.smaller-background-cards {
+    color: white;
+    /*padding-right: 10vh;*/
+    width: 25vh;
+    padding-bottom: 10vh;
+    background-color: rgb(22, 22, 22);
+    /*background-color: rgb(15, 15, 15);*/
+    border-radius: 5px;
+}
+#logo-project {
+    max-width: 10rem;
+    margin-bottom: 3rem;
+}
+#card-title, #card-description {
+    margin: 1rem;
+}
+#card-title {
+    font-size: 1rem;
+}
+
+.about {
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    gap: 15vh;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.about {  
+    background-color: white;
+    color: black;
+}
+#profile {
+    border-radius: 100%;
+    max-width: 30vh;
+}
